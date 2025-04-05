@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayurvedic Gardens</title>
+    <link rel="stylesheet" href="/CSS/gardens.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="/index.html"><img src="/Media/images/logo.png" alt="Logo Here"></a>
+        </div>
+        <div class="search">
+            <form action="#">
+                <input type="search" id="searchBar" placeholder="Search Here">
+
+                <button type="submit">Go</button>
+            </form>
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="/index.html">Details</a></li>
+                <li><a href="/index.html">Contact Us</a></li>
+                <li><a href="/index.html">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="cloud cloud-left"></div>
+    <div class="cloud cloud-right"></div>
+
+    <div class="container">
+        <h1>🌿 Explore Our Herbal Gardens</h1>
+        <div id="gardens"></div>
+    </div>
+
+    <div class="popup" id="plantPopup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2 id="popup-title"></h2>
+            <p id="popup-desc"></p>
+        </div>
+    </div>
+
+    <script src="/Scripts/gardens.js"></script>
+    <script src="/Scripts/home.js"></script>
+</body>
+
+</html>

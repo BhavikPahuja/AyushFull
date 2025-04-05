@@ -1,0 +1,158 @@
+.<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/CSS/home.css">
+</head>
+
+<body>
+    <div class="page">
+        <div class="navbar">
+            <div class="logo">
+                <a href="/HTML/index.html"><img src="/Media/images/logo.png" alt="Logo Here"></a>
+            </div>
+            <div class="search">
+                <p>"Connecting nature, knowledge, and wellness." 🌿✨</p>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="#details">Details</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#team">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main">
+            <h1>Welcome To The World of AYUSH Plants</h1>
+            <button onclick="startTransitionGarden()">To Gardens →</button>
+            <button onclick="startTransitionSocial()">To HerbalMedia →</button>
+        </div>
+
+        <div class="cloud cloud-left"></div>
+        <div class="cloud cloud-right"></div>
+
+        <section class="project-overview" id="details">
+            <h2>🌿 Virtual Herbal Garden – An Interactive Ayurvedic Experience</h2>
+            <p>
+                The <strong>Virtual Herbal Garden</strong> is a pioneering initiative aimed at revolutionizing the way
+                people understand and interact with medicinal plants.
+                Rooted in the ancient wisdom of Ayurveda, our platform serves as a gateway to explore a vast repository
+                of herbal knowledge in a digital landscape.
+                Our innovative approach bridges the knowledge gap between traditional healing practices and modern
+                digital accessibility, making the ancient wisdom of Ayurveda
+                accessible to everyone.
+            </p>
+            <p>
+                Our digital platform offers a comprehensive and immersive learning experience. Users can explore the
+                diverse world of medicinal plants through visually
+                rich thematic gardens that categorize plants based on their medicinal properties. From enhancing
+                immunity to improving digestion and mental clarity,
+                our categorized gardens provide an intuitive way to discover the natural healing power of plants.
+            </p>
+            <h3>🚀 Key Features:</h3>
+            <ul>
+                <li>🌱 Thematic gardens categorized by medicinal benefits, such as immunity boosters, digestive aids,
+                    and stress relievers.</li>
+                <li>🔍 Smart search functionality to find plants by name, health benefits, or traditional usage.</li>
+                <li>📸 High-quality images, 3D models, and video content for an engaging and interactive learning
+                    experience.</li>
+                <li>🌍 A globally accessible platform designed for students, researchers, and Ayurveda enthusiasts.</li>
+            </ul>
+        </section>
+
+        <section id="mission">
+            <h2>🌟 Our Mission</h2>
+            <p>
+                Our mission is to <strong>empower individuals with knowledge of Ayurvedic medicinal plants</strong> and
+                promote natural healing practices in a digital age.
+                We strive to create a sustainable and informative platform where users can not only learn about the
+                therapeutic properties of herbs but also incorporate
+                them into their daily lives for improved health and well-being.
+            </p>
+            <p>
+                Through the Virtual Herbal Garden, we seek to:
+            <ul>
+                <li>📚 Provide a well-structured and detailed database of medicinal plants with their benefits, usage,
+                    and history.</li>
+                <li>🛠 Equip users with tools to understand the significance of Ayurveda and how it contributes to
+                    holistic wellness.</li>
+                <li>🌿 Promote eco-consciousness by encouraging the cultivation of medicinal plants at home.</li>
+            </ul>
+            </p>
+        </section>
+
+        <section id="future-scope">
+            <h2>🔮 Future Scope</h2>
+            <p>
+                Our vision extends beyond just being an educational platform. We aim to incorporate cutting-edge
+                technology to make learning and application of Ayurvedic
+                principles seamless and user-friendly. Below are some of our future plans:
+            </p>
+            <ul style="text-align: left;">
+                <li>🤖 AI-driven plant recommendations based on individual user health profiles and concerns.</li>
+                <li>📱 Mobile app integration for a more accessible and portable learning experience.</li>
+                <li>🌍 Expansion of our database with multi-language support to reach a broader audience.</li>
+                <li>🛍 E-commerce integration to enable users to purchase seeds and herbal products directly through our
+                    platform.</li>
+                <li>🎮 Gamification elements such as quizzes and challenges to make learning more engaging.</li>
+                <br>
+            </ul>
+            <p>
+                With these future enhancements, we envision a world where knowledge of Ayurveda is not just limited to
+                books but is readily available to everyone at their fingertips,
+                fostering a healthier and more informed global community.
+            </p>
+        </section>
+
+
+        <section class="team" id="team">
+            <h2>Meet Our Team: The Marvels</h2>
+            <div class="team-members">
+                <div class="member">
+                    <img src="/Media/images/Bhavik.jpg" alt="Bhavik Pahuja">
+                    <h3>Bhavik Pahuja</h3>
+                    <p>Lead Developer</p>
+                </div>
+                <div class="member">
+                    <img src="/Media/images/Adi.jpg" alt="Aditya Pratap Singh">
+                    <h3>Aditya Pratap Singh</h3>
+                    <p>Researcher</p>
+                </div>
+                <div class="member">
+                    <img src="/Media/images/Mohit.jpg" alt="Mohit Pandey">
+                    <h3>Mohit Pandey</h3>
+                    <p>Presentator</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="aboutUs">
+            <button onclick="openAbout()">About Us</button>
+        </div>
+
+        <section id="contact">
+            <h2>📩 Contact Us</h2>
+            <p>Have questions or suggestions? We'd love to hear from you!</p>
+
+            <form>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+
+            <p>📧 Email: bhavikpahuja0@gmail.com</p>
+            <p>📞 Phone: +91-7339936015</p>
+            <p>By- Bhavik Pahuja</p>
+        </section>
+
+    </div>
+
+    <script src="/Scripts/home.js"></script>
+</body>
+
+</html>

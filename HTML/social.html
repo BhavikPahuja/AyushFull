@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Social Media</title>
+    <link rel="stylesheet" href="/CSS/social.css">
+    <script src="/Scripts/social.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="/index.html">📺 Herbal Media</a></div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search videos...">
+            <button>🔍</button>
+        </div>
+        <div class="user-profile">👤</div>
+    </nav>
+
+    <div class="container">
+        <aside class="sidebar">
+            <ul>
+                <li>🏠 Home</li>
+                <li>🔥 Trending</li>
+                <li>📂 Playlists</li>
+                <li>⏳ Watch Later</li>
+                <li onclick="openShorts()">🎬 Shorts</li>
+            </ul>
+        </aside>
+
+        <div class="cloud cloud-left"></div>
+        <div class="cloud cloud-right"></div>
+
+        <main class="main-content">
+            <section class="featured-video">
+                <video id="main-video" controls>
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+
+            <section class="video-section">
+                <h2>More Videos</h2>
+                <div class="video-grid">
+                    <div class="vid">
+                        <video class="video-thumbnail" src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                        <p>01 _ Introduction _ Basics of Ayurveda Part 1 _ Dr. Gitanjali S</p>
+                    </div>
+                    <div class="vid">
+                        <video class="video-thumbnail" src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                        <p>02 _ Dinacharya _ Basics of Ayurveda Part - 1 _ Dr. Gitanjali S</p>
+                    </div>
+                    <div class="vid">
+                        <video class="video-thumbnail" src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                        <p>03 _ Ritucharya _  Basics of Ayurveda _ Dr.  Gitanjali</p>
+                    </div>
+                    <div class="vid">
+                        <video class="video-thumbnail" src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                        <p>04 _  Dravadravyadi _  Basics of Ayurveda _  Dr. Gitanjali</p>
+                    </div>
+                    <div class="vid">
+                        <video class="video-thumbnail" src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                        <p>05 _ Aaharam _ Basics of Ayurveda _ Dr. Gitanjali</p>
+                    </div>
+                    <div class="vid">
+                        <video class="video-thumbnail" src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                        <p>06 _ Rasa Bhediyam _ Basics of Ayurveda _ Dr. Gitanjali S</p>
+                    </div>
+                    <div class="vid">
+                        <video class="video-thumbnail" src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                        <p>07 _ How Ayurveda looks at food _  Basics of Ayurveda _  Dr.  Gitanjali S</p>
+                    </div>
+                    <div class="vid">
+                        <video class="video-thumbnail" src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                        <p>08 _ ASHTA AHARA VIDHI AYATANAM _ Basics of Ayurveda _ Dr. Gitanjali S</p>
+                    </div>
+                    <div class="vid">
+                        <video class="video-thumbnail" src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                        <p>09 _ ROGANUTPADANIYAM _  Basics of Ayurveda _ Dr. Gitanjali S</p>
+                    </div>
+                    <div class="vid">
+                        <video class="video-thumbnail" src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                        <p>10 _ Valedictory _  Basics of Ayurveda _ Dr. Gitanjali S</p>
+                    </div>
+                    <div class="vid">
+                        <video class="video-thumbnail" src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                        <p>11 _ Chief Guest Speech  _  Basics of Ayurveda _ Dr. Gitanjali S</p>
+                    </div>
+                    <div class="vid">
+                        <video class="video-thumbnail" src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                        <p>12 _ Teacher Speech _ Basics of Ayurveda _ Dr. Gitanjali S</p>
+                    </div>
+                    <div class="vid">
+                        <video class="video-thumbnail" src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                        <p>13 _ Testimonials _ Basics of Ayurveda _ Dr. Gitanjali S</p>
+                    </div>
+                    <div class="vid">
+                        <video class="video-thumbnail" src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                        <p>14 _ Testimonials _ Basics of Ayurveda _ Dr. Gitanjali S</p>
+                    </div>
+                    <div class="vid">
+                        <video class="video-thumbnail" src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                        <p>15 _ Testimonials _ Basics of Ayurveda _ Dr. Gitanjali S</p>
+                    </div>
+                    <div class="vid">
+                        <video class="video-thumbnail" src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                        <p>16 _ Testimonials _ Basics of Ayurveda _ Dr. Gitanjali S</p>
+                    </div>
+                    <div class="vid">
+                        <video class="video-thumbnail" src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                        <p>17 _ Testimonials _ Basics of Ayurveda _ Dr. Gitanjali S</p>
+                    </div>
+                    <div class="vid">
+                        <video class="video-thumbnail" src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                        <p>18 _ Testimonials _ Basics of Ayurveda _ Dr. Gitanjali S</p>
+                    </div>
+                </div>
+            </section>
+
+            <div id="video-popup" class="popup">
+                <div class="popup-content">
+                    <span class="close" onclick="closePopup()">&times;</span>
+                    <video id="popup-video" controls autoplay></video>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <div id="shorts-modal" class="shorts-container">
+        <div class="shorts-content">
+            <span class="close-button" onclick="closeShorts()">&times;</span>
+            <video id="shorts-video" class="shorts-player" playsinline></video>
+        </div>
+    </div>
+
+    <script src="/Scripts/social.js"></script>
+</body>
+
+</html>
