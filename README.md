@@ -16,7 +16,6 @@ A clean and informative platform showcasing Ayurvedic herbs, plants, and flowers
 
 - HTML, CSS, JavaScript
 - Python (Data scraping)
-- [optional: Bootstrap/Tailwind if used]
 
 ## 👥 Team Roles
 
